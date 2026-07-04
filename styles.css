@@ -1,0 +1,37 @@
+:root {
+    --background-dark: #1F2937;
+    --background-light: #FFFFFF;
+    --background-medium: #E5E7EB;
+   
+    --footer-background: var(--background-dark);
+    --header-background: var(--background-dark);
+    --section-background: var(--background-light);
+ 
+    --btn-background: #3882F6;
+    --call-action-background: #3882F6;
+
+    --hero-background: var(--background-dark);
+    --hero-main-clr: #f9faf8;
+    --hero-main-font: Roboto 900 48px;
+    --hero-logo-clr: #F9FAF8;
+    --hero-logo-font: Roboto 24px;
+    --hero-secondary-clr: #e5e7eb;
+    --hero-secondary-font: Roboto 18px;
+    
+
+    --header-link-clr: #e5e7eb;
+    --header-link-font: Robot 18px;
+
+    --information-header-clr: #1f2937;
+    --information-header-font: Roboto 900 36px;
+     
+    --quote-background: var(--background-medium);
+    --quote-clr: #1F2937;
+    --quote-font: Roboto 300 36px;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
