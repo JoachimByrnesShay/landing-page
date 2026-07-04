@@ -1,33 +1,39 @@
 :root {
+    /* background palette */
     --background-dark: #1F2937;
     --background-light: #FFFFFF;
     --background-medium: #E5E7EB;
-   
+    --background-blue: #3882F6;
+
+    /* section backgrounds */
     --footer-background: var(--background-dark);
     --header-background: var(--background-dark);
     --section-background: var(--background-light);
- 
-    --btn-background: #3882F6;
-    --call-action-background: #3882F6;
-
+    --btn-background: var(--background-blue);
+    --call-action-background: var(--background-blue);
     --hero-background: var(--background-dark);
-    --hero-main-clr: #f9faf8;
-    --hero-main-font: Roboto 900 48px;
-    --hero-logo-clr: #F9FAF8;
-    --hero-logo-font: Roboto 24px;
-    --hero-secondary-clr: #e5e7eb;
-    --hero-secondary-font: Roboto 18px;
-    
+    --quote-background: var(--background-medium);
 
+    /* text */
     --header-link-clr: #e5e7eb;
-    --header-link-font: Roboto 18px;
+    --header-link-size: 18px;
+
+    --hero-main-clr: #f9faf8;
+    --hero-main-size: 48px;
+    --hero-main-weight: 900;
+    --hero-logo-clr: #F9FAF8;
+    --hero-logo-size: 24px;
+    --hero-secondary-clr: #e5e7eb;
+    --hero-secondary-size: 18px;
 
     --information-header-clr: #1f2937;
-    --information-header-font: Roboto 900 36px;
-     
-    --quote-background: var(--background-medium);
+    --information-header-size: 36px;
+    --information-header-weight: 900;
+    --information-header-size: 36px;
+
     --quote-clr: #1F2937;
-    --quote-font: Roboto 300 36px;
+    --quote-size: 36px;
+    --quote-weight: 300;
 }
 
 body {
