@@ -1,43 +1,5 @@
-:root {
-    /* background palette */
-    --background-dark: #1F2937;
-    --background-light: #FFFFFF;
-    --background-medium: #E5E7EB;
-    --background-blue: #3882F6;
-
-    /* section backgrounds */
-    --footer-background: var(--background-dark);
-    --header-background: var(--background-dark);
-    --section-background: var(--background-light);
-    --btn-background: var(--background-blue);
-    --call-action-background: var(--background-blue);
-    --hero-background: var(--background-dark);
-    --quote-background: var(--background-medium);
-
-    /* text */
-    --header-link-clr: #e5e7eb;
-    --header-link-size: 18px;
-
-    --hero-main-clr: #f9faf8;
-    --hero-main-size: 48px;
-    --hero-main-weight: 900;
-    --hero-logo-clr: #F9FAF8;
-    --hero-logo-size: 24px;
-    --hero-secondary-clr: #e5e7eb;
-    --hero-secondary-size: 18px;
-
-    --information-header-clr: #1f2937;
-    --information-header-size: 36px;
-    --information-header-weight: 900;
-    --information-header-size: 36px;
-
-    --quote-clr: #1F2937;
-    --quote-size: 36px;
-    --quote-weight: 300;
-}
-
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-
